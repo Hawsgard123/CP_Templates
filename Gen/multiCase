@@ -1,0 +1,53 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+#define max(a, b) (a < b ? b : a)
+#define min(a, b) ((a > b) ? b : a)
+#define mod 1000000007
+#define f(a, c) for (int(a) = 0; (a) < (c); (a)++)
+#define fl(a, b, c) for (int(a) = (b); (a) <= (c); (a)++)
+#define fr(a, b, c) for (int(a) = (b); (a) >= (c); (a)--)
+#define all(a) a.begin(), a.end()
+#define INF 1000000000000000003
+typedef long long int ll;
+typedef vector<int> vi;
+typedef pair<int, int> pi;
+#define pb push_back
+#define pob pop_back
+#define mp make_pair
+#define MSB(mask) 63-__builtin_clzll(mask)  /// 0 -> -1
+#define LSB(mask) __builtin_ctzll(mask)  /// 0 -> 64
+#define SETBIT(mask) __builtin_popcountll(mask)
+#define CHECKBIT(mask,bit) (mask&(1LL<<bit))
+#define ONBIT(mask,bit) (mask|(1LL<<bit))
+#define OFFBIT(mask,bit) (mask&~(1LL<<bit))
+#define CHANGEBIT(mask,bit) (mask^(1LL<<bit))
+#define Yes cout << "Yes" << endl;
+#define No cout << "No" << endl;
+#define YES cout << "YES" << endl;
+#define NO cout << "NO" << endl;
+long long sqr(long long x)
+{
+    long long y = sqrt(x) + 5;
+    while(y * y > x)
+        y--;
+    return y;
+}
+//--------------------------------------------------------------------------
+void solve()
+{
+    
+}
+//--------------------------------------------------------------------------
+int main()
+{
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    int T = 1;
+    cin >> T;
+    while (T--) 
+    {
+        solve();
+    }
+    return 0;
+}
