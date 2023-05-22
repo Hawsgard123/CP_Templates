@@ -17,9 +17,9 @@ using vll = vector<pll>;
 using vvi = vector<vi>;
 using vs = vector<string>;
 using vb = vector<bool>;
-#define f(i, a) for(int i=0;i<a;i++)
-#define fl(i, j, a) for(int i=j;i<=a;i++)
-#define fr(i, j, a) for(int i=j;i>=a;i--)
+#define f(a, c) for(int (a) = 0; (a) < (c); (a)++)
+#define fl(a, b, c) for(int (a) = (b); (a) <= (c); (a)++)
+#define fr(a, b, c) for(int (a) = (b); (a) >= (c); (a)--)
 #define re return
 #define pb push_back
 #define mp make_pair
