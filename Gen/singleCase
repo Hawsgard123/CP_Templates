@@ -1,0 +1,70 @@
+#include <bits/stdc++.h>
+using namespace std;
+// #include <ext/pb_ds/assoc_container.hpp>
+// #include <ext/pb_ds/tree_policy.hpp>
+// using namespace __gnu_pbds;
+// template<class T> using pbset=tree<T, null_type, less<T>, rb_tree_tag,tree_order_statistics_node_update> ;
+// template<class T> using pbmultiset=tree<T, null_type, less_equal<T>, rb_tree_tag,tree_order_statistics_node_update> ;
+using ll = long long;
+using ull = unsigned long long;
+using lld = long double;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using vi = vector<int>;
+using vl = vector<ll>;
+using vii = vector<pii>;
+using vll = vector<pll>;
+using vvi = vector<vi>;
+using vs = vector<string>;
+using vb = vector<bool>;
+#define f(i, a) for(int i=0;i<a;i++)
+#define fl(i, j, a) for(int i=j;i<=a;i++)
+#define fr(i, j, a) for(int i=j;i>=a;i--)
+#define re return
+#define pb push_back
+#define mp make_pair
+#define all(a) a.begin(), a.end()
+#define rall(a) a.rbegin(), a.rend()
+#define sz(a) int((a).size())
+#define sqr(x) (1LL*(x)*(x))
+#define gcd(a,b) __gcd(a,b)
+#define lcm(a,b) (1LL*(a/gcd(a,b))*b)
+#define fix(prec) {cout << setprecision(prec) << fixed;}
+#define fi first
+#define se second
+#define CeilDiv(a,b) ((a+b-1)/b)
+#define pq priority_queue
+#define pqmax priority_queue<ll>
+#define pqmin priority_queue<ll,vector<ll>,greater<ll>>
+#define endl '\n'
+#define yes cout<<"YES"<<endl
+#define no cout<<"NO"<<endl
+#define gg cout<<-1<<endl
+#define present(c, x) (c.find(x) != c.end())
+#define cpresent(c, x) (find(all(c), x) != c.end())
+#define MSB(mask) 63-__builtin_clzll(mask)  /// 0 -> -1
+#define LSB(mask) __builtin_ctzll(mask)  /// 0 -> 64
+#define SETBIT(mask) __builtin_popcountll(mask)
+#define CHECKBIT(mask,bit) (mask&(1LL<<bit))
+#define ONBIT(mask,bit) (mask|(1LL<<bit))
+#define OFFBIT(mask,bit) (mask&~(1LL<<bit))
+#define CHANGEBIT(mask,bit) (mask^(1LL<<bit))
+const int inf = 2e9;
+const ll mod = 1000000007;
+void solve()
+{
+
+}
+
+int main() 
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    int T = 1;
+    //cin >> T;
+    while(T--)
+    {
+        solve();
+    }
+    return 0;
+}
